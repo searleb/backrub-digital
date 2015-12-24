@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<article class="post {{page.class}}">
+    <h1>
+        {{ page.title }}
+        {% if page.subtitle %}
+            <small>{{ page.subtitle }}</small>
+        {% endif %}
+    </h1>
+    <div class="date">
+        <small>
+            {{ page.date | date: "%B %e, %Y" }}
+        </small>
+    </div>
+
+    <div class="entry">
+        {{ content }}
+    </div>
+</article>

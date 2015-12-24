@@ -1,0 +1,19 @@
+$yellow: #FCEC98;
+$pink: #FCD8D0;
+$blue: #AADFF1;
+$green: #BDDC94;
+$orange: #F5A623;
+
+body{
+    background-image: linear-gradient($yellow, $pink, $blue, $green);
+    height: 100%;
+    padding: 50px;
+}
+.hands-section{
+    height: 100vh;
+    svg{
+        max-width: 100%;
+        margin: auto;
+        display: block;
+    }
+}
