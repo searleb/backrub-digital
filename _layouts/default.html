@@ -14,7 +14,7 @@
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
 </head>
 
-<body>
+<body data-hijacking="off" data-animation="none">
     <header>
         <div class="container">
             <div class="row">
@@ -32,17 +32,20 @@
     </header>
 
     <main id="main" role="main" class="container">
-        <div class="row">
-            <div class="col-sm-12">
+        <!-- <div class="row"> -->
+            <!-- <div class="col-sm-12"> -->
                 {{ content }}
-            </div>
-        </div>
+            <!-- </div> -->
+        <!-- </div> -->
     </main>
 
     {% include analytics.html %}
 
     <script type="text/javascript" src="{{site.baseurl}}/js/jquery.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/js/modinizr.js"></script>
     <script type="text/javascript" src="{{site.baseurl}}/js/velocity.min.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/js/velocity.ui.min.js"></script>
     <script type="text/javascript" src="{{site.baseurl}}/js/backrub-animations.js"></script>
+    <script type="text/javascript" src="{{site.baseurl}}/js/cody-page-animation.js"></script>
 </body>
 </html>
