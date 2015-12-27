@@ -6,7 +6,7 @@ $('.massage #hand-1')
     rotateZ: '-0.6deg'
 }, {
     loop: true,
-    duration: 1000
+    duration: 1200
 });
 
 $('.massage #hand-2')
@@ -31,43 +31,36 @@ $('.knead #hand-2')
 })
 .velocity({
     rotateY: '15deg',
-    rotateX: '12deg',
+    rotateX: '20deg',
+    rotateZ: '12deg',
     translateX: '610px',
     translateY: '30px',
 }, {
+    delay: 100,
     loop: true,
     duration: 1000
 });
 
+
+
 $('.rub-you #hand-1')
 .velocity({ // forcefeed initial position
     translateX: [ 75, 75 ],
-    translateY: [ 10, 10 ],
-    transformOriginY: '40'
+    translateY: [ 0, 0 ],
 })
 .velocity({
-    rotateX: '-5deg',
-    rotateZ: '-55deg',
-    translateY: '200px',
-    translateX: '240px'
-}, {
-    duration: 3000,
-    delay: 5000,
-});
-
-$('.rub-you #hand-2')
-.velocity({ // forcefeed initial position
-    translateX: [ 400, 400 ],
-    translateY: [ 20, 20 ],
-})
-.velocity({
-    rotateX: '10deg',
-    rotateZ: '-3deg',
-    translateX: '395px',
-    translateY: '10px',
+    rotateX: '-17.5deg',
+    rotateZ: '5deg',
+    translateY: '80px',
+    translateX: '40px'
 }, {
     loop: true,
-    duration: 250,
-    delay: 100,
+    duration: 1750,
     easing: 'easeInOut'
 });
+
+// $('.rub-you #hand-2')
+// .velocity({ // forcefeed initial position
+//     translateX: [ 400, 400 ],
+//     translateY: [ 18, 18 ],
+// });

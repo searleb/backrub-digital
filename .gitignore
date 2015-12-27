@@ -7,3 +7,13 @@ Gemfile
 Gemfile.lock
 node_modules
 package.json
+
+_site/404.html
+
+_site/feed.xml
+
+_site/index.html
+
+_site/js/backrub-animations.js
+
+_site/sitemap.xml
