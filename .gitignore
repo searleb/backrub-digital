@@ -17,3 +17,7 @@ _site/index.html
 _site/js/backrub-animations.js
 
 _site/sitemap.xml
+
+_site/style.css
+
+*.scssc
