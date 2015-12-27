@@ -11,10 +11,10 @@ defaults:
       is_post: true # automatically set is_post=true for all posts
 
 # Name of your site (displayed in the header)
-name: Bill Searle
+name: Backrub Digital
 
 # Short bio or description (displayed in the header)
-description: Web Developer
+description: Let us massage your digital dreams
 
 # URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://avatars2.githubusercontent.com/u/4615063?v=3&s=460
@@ -49,13 +49,13 @@ google_analytics: UA-54388947-1
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url: http://searleb.github.io
+url: http://backrubdigital.com
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
 # and NOT your User repository (http://yourusername.github.io)
 # then add in the baseurl here, like this: "/repository-name"
-baseurl: ""
+baseurl: "/backrub-digital"
 
 #
 # !! You don't need to change any of the configuration flags below !!
